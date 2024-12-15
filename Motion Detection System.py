@@ -58,7 +58,7 @@ while True:
 
     if motion_detected and (time.time() - last_played > cooldown):
         print("Motion Detected! Playing Sound!")
-        playsound(r"C:\Users\Metatron\Downloads\mixkit-slot-machine-win-alert-1931.wav")
+        playsound(r"Enter the path of the Sound")
         last_played = time.time()
 
         if save_photos:
